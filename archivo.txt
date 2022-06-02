@@ -1,5 +1,0 @@
-hola
-
-Nombre: Antonio Lopez
-Cel: 99999
-Linkedin: linkedin.com/antonio
