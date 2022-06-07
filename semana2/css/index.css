@@ -1,0 +1,79 @@
+h1{
+    font-family: 'Yeseva One',helvetica,arial,sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+.parrafo{
+    font-family: "Dank Mono",monospace;
+    font-size: 80px;
+    font-weight: bold;
+}
+.link-a{
+    font-size: 32px;
+    font-family: "Dank Mono",monospace;
+    text-decoration: none;
+    color:rgb(53, 146,239)
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    background-color: rgb(53, 146,239, 0.3);
+}
+.span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  
+  .span-2 {
+    text-decoration: overline;
+  }
+  
+  .span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  
+  .span-4 {
+    text-decoration: line-through;
+    text-decoration-color: #f01;
+  }
+  
+  .span-5 {
+    text-decoration: overline;
+    background-color: #0ba;
+    text-decoration-color: #fff;
+  }
+  
+  /* 
+    lowercase => Minusculas
+    uppercase => mayusculas
+    capitalize => Primera del text en mayuscula
+   */
+  
+  .span-6 {
+    color: #fff;
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: rgb(255, 183, 0);
+    /* Estamos indicando que el texto sea en minusiculas */
+    text-transform: lowercase;
+  }
+  @font-face {
+      font-family: "Luckiest Guy";
+      src: url("../fonts/LuckiestGuy-Regular.ttf");
+  }
+  @font-face{
+      font-family:"Playball";
+      src:url("../fonts/Playball-Regular.ttf");
+  }
+  .title-2 {
+    font-family: "Luckiest Guy";
+  }
+  
+  .parrafo-2 {
+    font-family: "Playball";
+    font-size: 24px;
+  }
