@@ -1,0 +1,36 @@
+.bg-box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+.bandera{
+    height:100vh ;
+    border: solid;
+    position: relative;
+}
+.green{
+    height: 100vh;
+    background-color: green;
+    width: 40%;
+    float: left;
+}
+.red{
+    height: 100vh;
+    background-color: red;
+    width: 60%;
+    float: right;
+}
+.escudo{
+    background: url("../images/portugal.svg.png");
+    background-repeat:no-repeat ;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:calc(50% - 100px);
+    background-size: cover;
+    background-position: center;
+    left: calc(40% - 100px);
+}

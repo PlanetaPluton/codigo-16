@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg{
+    border:solid;
+    height: 150px;
+}
+.color-red{
+    background: red;
+}
+.color-green{
+    background: green;
+}
+.bg-img{
+    background: url("../../semana1/images/f8a443699c39fb15e0e7d7262150e528--disney-pics-disney-quotes.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-img-goku {
+    background: url("../images/81c5562fd89504ea3f831a47fd496f6c.png");
+    /* Estamos diciendo que este div tenga
+    un alto de 500px */
+    height: 500px;
+    background-size: cover;
+    /* Esto indica
+    que queremos mostrar la 
+    parte central de la imagen */
+    background-position: center;
+    background-repeat: no-repeat;
+  }

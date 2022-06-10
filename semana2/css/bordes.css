@@ -1,0 +1,78 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:20px;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.solid{
+    border-style: solid;
+    border-color: brown;
+    border-width: 5px;
+}
+.dashed{
+    border-style:dashed;
+    border-color: green;
+    border-width: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.small{
+    font-size: 0.6em;
+}
+.left_solid{
+    border-left-style: solid;
+}
+.right_dotted{
+    border-right: dotted pink 3px;
+}
+.dotted{
+    border: 3px dotted blue;
+}
+.double{
+    border-style: double;
+    border-color: skyblue;
+    border-width: 2px;
+}
+.groove{
+    border-style:groove;
+    border-color: violet;
+    border-width: 2px;
+}
+.hidden{
+    border-style:hidden;
+    border-width: 2px;
+}
+.inherit{
+    border-style: inherit;
+    border-width: 2px;
+}
+.initial{
+    border-style: initial;
+    border-width: 2px;
+}
+.inset{
+    border-style:inset;
+    border-color: red;
+    border-width: 2px;
+}
+.outset{
+    border-style:outset;
+    border-color: purple;
+    border-width: 2px;
+}
+.ridge{
+    border-style:ridge;
+    border-color: pink;
+    border-width: 2px;
+}
+.unset{
+    border-style:unset;
+    border-width: 2px;
+}
